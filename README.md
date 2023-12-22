@@ -231,8 +231,32 @@ echo  "O-RAN NIC Setting Complete!"
 
 # 7. Execution
 
-# TBDDDD
+## Run Oai CU
+```bash
+ sudo ./nr-softmodem -O ../../../ci-scripts/conf_files/cu.band66.tm1.106PRB.usrpb210.conf --sa
+```
+under
+```
+/home/six/oscdu_oaicu/openairinterface5g/cmake_targets/ran_build/build
+```
 
+## Run Osc L2
+```
+./odu
+```
+under
+```
+/home/six/NCU_integration_OSC_DU-main/bin/odu# 
+```
+
+## Run Oai L1
+```bash
+sudo ./nr-softmodem -O ../../../../NCU_integration_OSC_DU-main/mwnl/oai_pnf_conf/oaiL1.nfapi.usrpb210.conf --sa -E --gNBs.[0].min_rxtxtime 6 --continuous-tx --nfapi 1
+```
+under
+```
+/home/six/openairinterface5g/cmake_targets/ran_build/build#
+```
 
 <details>
   <summary>Extras for further ref.</summary>
