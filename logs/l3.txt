@@ -1,0 +1,643 @@
+root@six:/home/six/oscdu_oaicu/openairinterface5g/cmake_targets/ran_build/build# sudo ./nr-softmodem -O ../../../ci-scripts/conf_files/cu.band66.tm1.106PRB.usrpb210.conf --sa
+CMDLINE: "./nr-softmodem" "-O" "../../../ci-scripts/conf_files/cu.band66.tm1.106PRB.usrpb210.conf" "--sa"
+[CONFIG] get parameters from libconfig ../../../ci-scripts/conf_files/cu.band66.tm1.106PRB.usrpb210.conf , debug flags: 0x00000000
+[LIBCONFIG] Path for include directive set to: ../../../ci-scripts/conf_files
+[CONFIG] function config_libconfig_init returned 0
+[CONFIG] config module libconfig loaded
+[LIBCONFIG] config: 1/1 parameters successfully set, (1 to default value)
+[LIBCONFIG] log_config: 3/3 parameters successfully set, (1 to default value)
+[LIBCONFIG] log_config: 55/55 parameters successfully set, (47 to default value)
+[LIBCONFIG] log_config: 55/55 parameters successfully set, (55 to default value)
+[LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
+[LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
+log init done
+[HW]   # /dev/cpu_dma_latency set to 2 us
+Reading in command-line options
+[LIBCONFIG] (root): 33/33 parameters successfully set, (29 to default value)
+[LIBCONFIG] (root): 5/5 parameters successfully set, (4 to default value)
+[ENB_APP]   nfapi running mode: MONOLITHIC
+[GNB_APP]   Getting GNBSParams
+[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+[LIBCONFIG] list MACRLCs not found in config file ../../../ci-scripts/conf_files/cu.band66.tm1.106PRB.usrpb210.conf
+[LIBCONFIG] list L1s not found in config file ../../../ci-scripts/conf_files/cu.band66.tm1.106PRB.usrpb210.conf
+[LIBCONFIG] list RUs not found in config file ../../../ci-scripts/conf_files/cu.band66.tm1.106PRB.usrpb210.conf
+[LIBCONFIG] list THREAD_STRUCT not found in config file ../../../ci-scripts/conf_files/cu.band66.tm1.106PRB.usrpb210.conf
+[CONFIG] parallel_conf is set to 2
+[CONFIG] worker_conf is set to 1
+Configuration: nb_rrc_inst 1, nb_nr_L1_inst 0, nb_ru 0
+[LIBCONFIG] TTracer: 4/4 parameters successfully set, (4 to default value)
+configuring for RAU/RRU
+CPU Freq is 2.400134
+[ITTI]   Starting itti queue: TASK_UNKNOWN as task 0
+[ITTI]   Starting itti queue: TASK_TIMER as task 1
+[ITTI]   Starting itti queue: TASK_L2L1 as task 2
+[ITTI]   Starting itti queue: TASK_BM as task 3
+[ITTI]   Starting itti queue: TASK_PHY_ENB as task 4
+[ITTI]   Starting itti queue: TASK_MAC_ENB as task 5
+[ITTI]   Starting itti queue: TASK_RLC_ENB as task 6
+[ITTI]   Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
+[ITTI]   Starting itti queue: TASK_PDCP_ENB as task 8
+[ITTI]   Starting itti queue: TASK_DATA_FORWARDING as task 9
+[ITTI]   Starting itti queue: TASK_END_MARKER as task 10
+[ITTI]   Starting itti queue: TASK_RRC_ENB as task 11
+[ITTI]   Starting itti queue: TASK_RRC_GNB as task 12
+[ITTI]   Starting itti queue: TASK_RAL_ENB as task 13
+[ITTI]   Starting itti queue: TASK_S1AP as task 14
+[ITTI]   Starting itti queue: TASK_NGAP as task 15
+[ITTI]   Starting itti queue: TASK_X2AP as task 16
+[ITTI]   Starting itti queue: TASK_M2AP_ENB as task 17
+[ITTI]   Starting itti queue: TASK_M2AP_MCE as task 18
+[ITTI]   Starting itti queue: TASK_M3AP as task 19
+[ITTI]   Starting itti queue: TASK_M3AP_MME as task 20
+[ITTI]   Starting itti queue: TASK_M3AP_MCE as task 21
+[ITTI]   Starting itti queue: TASK_SCTP as task 22
+[ITTI]   Starting itti queue: TASK_ENB_APP as task 23
+[ITTI]   Starting itti queue: TASK_GNB_APP as task 24
+[ITTI]   Starting itti queue: TASK_MCE_APP as task 25
+[ITTI]   Starting itti queue: TASK_MME_APP as task 26
+[ITTI]   Starting itti queue: TASK_FLEXRAN_AGENT as task 27
+[ITTI]   Starting itti queue: TASK_PHY_UE as task 28
+[ITTI]   Starting itti queue: TASK_MAC_UE as task 29
+[ITTI]   Starting itti queue: TASK_RLC_UE as task 30
+[ITTI]   Starting itti queue: TASK_PDCP_UE as task 31
+[ITTI]   Starting itti queue: TASK_RRC_UE as task 32
+[ITTI]   Starting itti queue: TASK_RRC_NRUE as task 33
+[ITTI]   Starting itti queue: TASK_NAS_UE as task 34
+[ITTI]   Starting itti queue: TASK_RAL_UE as task 35
+[ITTI]   Starting itti queue: TASK_GTPV1_U as task 36
+[ITTI]   Starting itti queue: TASK_CU_F1 as task 37
+[ITTI]   Starting itti queue: TASK_DU_F1 as task 38
+[ITTI]   Starting itti queue: TASK_RRC_UE_SIM as task 39
+[ITTI]   Starting itti queue: TASK_RRC_GNB_SIM as task 40
+[ITTI]   Starting itti queue: TASK_RRC_NSA_UE as task 41
+[ITTI]   Starting itti queue: TASK_RRC_NSA_NRUE as task 42
+[ITTI]   Starting itti queue: TASK_NAS_NRUE as task 43
+[LIBCONFIG] opt: 3/3 parameters successfully set, (3 to default value)
+[OPT]   OPT disabled
+[HW]   Version: Branch: master Abrev. Hash: 11aa020 Date: Mon Aug 15 16:26:38 2022 +0800
+[SCTP]   Starting SCTP layer
+[ITTI]   Created Posix thread TASK_SCTP
+[LIBCONFIG] eNBs.[0]: 1/1 parameters successfully set, (1 to default value)
+[LIBCONFIG] gNBs.[0]: 1/1 parameters successfully set, (1 to default value)
+[X2AP]   X2AP is disabled.
+[LIBCONFIG] gNBs.[0].NETWORK_INTERFACES: 10/10 parameters successfully set, (3 to default value)
+[NGAP]   Configuration in the file: eno1:CU.
+[NGAP]   Configuration in the file: 192.168.70.129.
+[NGAP]   Starting NGAP layer
+[ITTI]   Created Posix thread TASK_NGAP
+[PHY]   gNB_app_task() Task ready initialize structures
+[ITTI]   Created Posix thread TASK_GNB_APP
+[NR_RRC]   Creating NR RRC gNB Task
+[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+[LIBCONFIG] gNBs.[0]: 27/27 parameters successfully set, (9 to default value)
+[NR_PHY]   PRB blacklist
+[NR_PHY]   RC.gNB = 0x7f6fd4000cd0
+[LIBCONFIG] list L1s not found in config file ../../../ci-scripts/conf_files/cu.band66.tm1.106PRB.usrpb210.conf
+[PHY]   No L1s configuration found[PHY]   RC.gNB[0] = 0x7f6fd83f2010
+[PHY]   gNB_app_task() RC.nb_nr_L1_inst:0
+[GNB_APP]   Allocating gNB_RRC_INST for 1 instances
+[PHY]   gNB_app_task() RC.nb_nr_inst:1 RC.nrrrc:0x7f6fd4002650
+[PHY]   gNB_app_task() Creating RRC instance RC.nrrrc[0]:0x7f6fd4002670 (1 of 1)
+[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+[LIBCONFIG] gNBs.[0]: 27/27 parameters successfully set, (9 to default value)
+[LIBCONFIG] gNBs.[0].pdcch_ConfigSIB1.[0]: 2/2 parameters successfully set, (0 to default value)
+[LIBCONFIG] gNBs.[0].servingCellConfigCommon.[0]: 60/60 parameters successfully set, (14 to default value)
+[RRC]   Read in ServingCellConfigCommon (PhysCellId 1, ABSFREQSSB 433096, DLBand 66, ABSFREQPOINTA 430000, DLBW 106,RACH_TargetReceivedPower -100
+[PHY]   not found same deltaf_raster == scs_khz, use only band and last deltaf_raster
+[NR_MAC]   NR band duplex spacing is -400000 KHz (nr_bandtable[28].band = 66)
+[NR_MAC]   NR band 66, duplex mode FDD, duplex spacing = -400000 KHz
+[PHY]   not found same deltaf_raster == scs_khz, use only band and last deltaf_raster
+[NR_MAC]   NR band duplex spacing is -400000 KHz (nr_bandtable[28].band = 66)
+[NR_MAC]   NR band 66, duplex mode FDD, duplex spacing = -400000 KHz
+[LIBCONFIG] list gNBs.[0].servingCellConfigDedicated not found in config file ../../../ci-scripts/conf_files/cu.band66.tm1.106PRB.usrpb210.conf
+[RRC]   DL PTRS frequencyDensity 1 not set. Assuming PTRS not present!
+[RRC]   UL PTRS frequencyDensity 1 not set. Assuming PTRS not present!
+NRRRC 0: Southbound Transport f1
+[LIBCONFIG] gNBs.[0].SCTP: 2/2 parameters successfully set, (0 to default value)
+[GNB_APP]   F1AP: gNB_CU_id[0] 3584
+[GNB_APP]   F1AP: gNB_CU_name[0] gNB-Eurecom-CU
+[LIBCONFIG] gNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
+[RRC]   SSB SCO 0
+[RRC]   pdsch_AntennaPorts N1 1
+[RRC]   pdsch_AntennaPorts N2 1
+[RRC]   pdsch_AntennaPorts XP 1
+[RRC]   pusch_AntennaPorts 1
+[RRC]   minTXRXTIME 6
+[RRC]   SIB1 TDA 0
+[RRC]   Do CSI-RS 0
+[RRC]   Do SRS 0
+[RRC]   256 QAM: may be on
+[GNB_APP]   SDAP layer is disabled
+[LIBCONFIG] security: 4/4 parameters successfully set, (0 to default value)
+[GNB_APP]   RRC starting with node type 5
+[GNB_APP]   Sending configuration message to NR_RRC task
+[NR_RRC]   Entering main loop of NR_RRC message task
+[NR_RRC]   Received message NRRRC_CONFIGURATION_REQ
+[ITTI]   Created Posix thread TASK_RRC_GNB
+[NR_RRC]   [gNB 0] Received NRRRC_CONFIGURATION_REQ : 0x7f6fd4003cc0
+[NR_RRC]   [FRAME 00000][gNB][MOD 00][RNTI 0] Init...
+[PDCP]   pdcp init,usegtp
+[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+[LIBCONFIG] gNBs.[0]: 27/27 parameters successfully set, (9 to default value)
+[LIBCONFIG] gNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
+[LIBCONFIG] gNBs.[0].plmn_list.[0].snssaiList.[0]: 2/2 parameters successfully set, (0 to default value)
+[LIBCONFIG] gNBs.[0].plmn_list.[0].snssaiList.[1]: 2/2 parameters successfully set, (0 to default value)
+[LIBCONFIG] gNBs.[0].amf_ip_address.[0]: 4/4 parameters successfully set, (0 to default value)
+[LIBCONFIG] gNBs.[0].SCTP: 2/2 parameters successfully set, (0 to default value)
+[LIBCONFIG] gNBs.[0].NETWORK_INTERFACES: 10/10 parameters successfully set, (3 to default value)
+[GNB_APP]   default drx 0
+[GTPU]   Configuring GTPu
+[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+[LIBCONFIG] gNBs.[0].NETWORK_INTERFACES: 10/10 parameters successfully set, (3 to default value)
+[GTPU]   SA mode
+[GTPU]   Configuring GTPu address : 192.168.70.129 -> 8146a8c0
+[GNB_APP]   [gNB 0] gNB_app_register for instance 0
+[PHY]   not found same deltaf_raster == scs_khz, use only band and last deltaf_raster
+[NR_MAC]   NR band duplex spacing is -400000 KHz (nr_bandtable[28].band = 66)
+[NR_MAC]   NR band 66, duplex mode FDD, duplex spacing = -400000 KHz
+[NR_RRC]   [FRAME 00000][gNB][MOD 00][RNTI 0] Checking release
+[NR_RRC]   do_SIB23_NR, size 9
+ [NR_RRC]   Done init_NR_SI
+[NR_RRC]   [FRAME 00000][gNB][MOD 00][RNTI 0] gNB:OPENAIR NR RRC IN....
+[NGAP]   Registered new gNB[0] and macro gNB id 3584
+[NGAP]   [gNB 0] check the amf registration state
+[SCTP]   Converted ipv4 address 192.168.70.132 to network type
+[SCTP]   connectx assoc_id  79 in progress..., used 1 addresses
+[SCTP]   Inserted new descriptor for sd 94 in list, nb elements 1, assoc_id 79
+[GTPU]   Initializing UDP for local address 192.168.70.129 with port 2152
+[ITTI]   Created Posix thread TASK_GTPV1_U
+[F1AP]   Starting F1AP at CU
+[F1AP]   F1AP_CU_SCTP_REQ(create socket)
+[ITTI]   Created Posix thread TASK_CU_F1
+[GTPU]   bind: Cannot assign requested address
+[GTPU]   failed to bind socket: 192.168.70.129 2152
+[GTPU]   can't create GTP-U instance
+[GTPU]   Created gtpu instance id: -1
+[SCTP]   Received SCTP_INIT_MSG
+[SCTP]   Creating new listen socket on port 30923 with
+[SCTP]   ipv4 addresses:
+[SCTP]          - 192.168.130.83
+NFAPI MODE:MONOLITHIC
+START MAIN THREADS
+RC.nb_nr_L1_inst:0
+wait_gNBs()
+Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 0)
+gNB L1 are configured
+About to Init RU threads RC.nb_RU:0
+About to call end_configmodule() from main() /home/six/oscdu_oaicu/openairinterface5g/executables/nr-softmodem.c:786
+Called end_configmodule() from main() /home/six/oscdu_oaicu/openairinterface5g/executables/nr-softmodem.c:791
+TYPE <CTRL-C> TO TERMINATE
+Entering ITTI signals handler
+[SCTP]   Found data for descriptor 95
+[SCTP]   ----------------------
+[SCTP]   SCTP Status:
+[SCTP]   assoc id .....: 82
+[SCTP]   state ........: 4
+[SCTP]   instrms ......: 10
+[SCTP]   outstrms .....: 32
+[SCTP]   fragmentation : 65464
+[SCTP]   pending data .: 0
+[SCTP]   unack data ...: 0
+[SCTP]   rwnd .........: 106496
+[SCTP]   peer info     :
+[SCTP]       state ....: 2
+[SCTP]       cwnd .....: 131064
+[SCTP]       srtt .....: 0
+[SCTP]       rto ......: 3000
+[SCTP]       mtu ......: 65532
+[SCTP]   ----------------------
+[SCTP]   Found data for descriptor 96
+[F1AP]   CU Task Received SCTP_NEW_ASSOCIATION_IND for instance 0
+[SCTP]   Received notification for sd 96, type 32769
+[SCTP]   Client association changed: 0
+[GTPU]   Initializing UDP for local address 192.168.130.83 with port 39002
+[SCTP]   ----------------------
+[SCTP]   Peer addresses:
+[SCTP]       - [::ffff:192.168.130.81]
+[SCTP]   ----------------------
+[SCTP]   ----------------------
+[SCTP]   SCTP Status:
+[SCTP]   assoc id .....: 82
+[SCTP]   state ........: 4
+[SCTP]   instrms ......: 10
+[SCTP]   outstrms .....: 32
+[SCTP]   fragmentation : 65464
+[SCTP]   pending data .: 0
+[SCTP]   unack data ...: 0
+[GTPU]   Created gtpu instance id: 97
+[SCTP]   rwnd .........: 106496
+[SCTP]   peer info     :
+[SCTP]       state ....: 2
+[SCTP]       cwnd .....: 131064
+[SCTP]       srtt .....: 0
+[SCTP]       rto ......: 3000
+[SCTP]       mtu ......: 65532
+[SCTP]   ----------------------
+[SCTP]   Comm up notified for sd 96, assigned assoc_id 82
+[F1AP]   CU Task Received SCTP_NEW_ASSOCIATION_RESP for instance 0
+[SCTP]   Found data for descriptor 96
+[SCTP]   Received data from peer with unsollicited PPID 0, expecting 62
+[SCTP]   [82][96] Msg of length 217 received, on stream 0, PPID 0
+[F1AP]   CU Task Received SCTP_DATA_IND for Instance 0
+==================LENGTH = 217==================
+[F1AP]   ----------------- ASN1 DECODER PRINT START-----------------
+<F1AP-PDU>
+    <initiatingMessage>
+        <procedureCode>1</procedureCode>
+        <criticality><reject/></criticality>
+        <value>
+            <F1SetupRequest>
+                <protocolIEs>
+                    <F1SetupRequestIEs>
+                        <id>78</id>
+                        <criticality><reject/></criticality>
+                        <value>
+                            <TransactionID>1</TransactionID>
+                        </value>
+                    </F1SetupRequestIEs>
+                    <F1SetupRequestIEs>
+                        <id>42</id>
+                        <criticality><reject/></criticality>
+                        <value>
+                            <GNB-DU-ID>1</GNB-DU-ID>
+                        </value>
+                    </F1SetupRequestIEs>
+                    <F1SetupRequestIEs>
+                        <id>45</id>
+                        <criticality><ignore/></criticality>
+                        <value>
+                            <GNB-DU-Name>ORAN_OAM_DU</GNB-DU-Name>
+                        </value>
+                    </F1SetupRequestIEs>
+                    <F1SetupRequestIEs>
+                        <id>44</id>
+                        <criticality><reject/></criticality>
+                        <value>
+                            <GNB-DU-Served-Cells-List>
+                                <ProtocolIE-SingleContainer>
+                                    <id>43</id>
+                                    <criticality><reject/></criticality>
+                                    <value>
+                                        <GNB-DU-Served-Cells-Item>
+                                            <served-Cell-Information>
+                                                <nRCGI>
+                                                    <pLMN-Identity>64 96 02</pLMN-Identity>
+                                                    <nRCellIdentity>
+                                                        000000000000000000000000000000000001
+                                                    </nRCellIdentity>
+                                                </nRCGI>
+                                                <nRPCI>1</nRPCI>
+                                                <fiveGS-TAC>00 00 01</fiveGS-TAC>
+                                                <servedPLMNs>
+                                                    <ServedPLMNs-Item>
+                                                        <pLMN-Identity>64 96 02</pLMN-Identity>
+                                                        <iE-Extensions>
+                                                            <ServedPLMNs-ItemExtIEs>
+                                                                <id>131</id>
+                                                                <criticality><ignore/></criticality>
+                                                                <extensionValue>
+                                                                    <SliceSupportList>
+                                                                        <SliceSupportItem>
+                                                                            <sNSSAI>
+                                                                                <sST>01</sST>
+                                                                                <sD>02 03 04</sD>
+                                                                            </sNSSAI>
+                                                                        </SliceSupportItem>
+                                                                        <SliceSupportItem>
+                                                                            <sNSSAI>
+                                                                                <sST>05</sST>
+                                                                                <sD>06 07 08</sD>
+                                                                            </sNSSAI>
+                                                                        </SliceSupportItem>
+                                                                    </SliceSupportList>
+                                                                </extensionValue>
+                                                            </ServedPLMNs-ItemExtIEs>
+                                                        </iE-Extensions>
+                                                    </ServedPLMNs-Item>
+                                                </servedPLMNs>
+                                                <nR-Mode-Info>
+                                                    <fDD>
+                                                        <uL-NRFreqInfo>
+                                                            <nRARFCN>350000</nRARFCN>
+                                                            <freqBandListNr>
+                                                                <FreqBandNrItem>
+                                                                    <freqBandIndicatorNr>66</freqBandIndicatorNr>
+                                                                    <supportedSULBandList>
+                                                                    </supportedSULBandList>
+                                                                </FreqBandNrItem>
+                                                            </freqBandListNr>
+                                                        </uL-NRFreqInfo>
+                                                        <dL-NRFreqInfo>
+                                                            <nRARFCN>430000</nRARFCN>
+                                                            <freqBandListNr>
+                                                                <FreqBandNrItem>
+                                                                    <freqBandIndicatorNr>66</freqBandIndicatorNr>
+                                                                    <supportedSULBandList>
+                                                                    </supportedSULBandList>
+                                                                </FreqBandNrItem>
+                                                            </freqBandListNr>
+                                                        </dL-NRFreqInfo>
+                                                        <uL-Transmission-Bandwidth>
+                                                            <nRSCS><scs60/></nRSCS>
+                                                            <nRNRB><nrb106/></nRNRB>
+                                                        </uL-Transmission-Bandwidth>
+                                                        <dL-Transmission-Bandwidth>
+                                                            <nRSCS><scs60/></nRSCS>
+                                                            <nRNRB><nrb106/></nRNRB>
+                                                        </dL-Transmission-Bandwidth>
+                                                    </fDD>
+                                                </nR-Mode-Info>
+                                                <measurementTimingConfiguration>00</measurementTimingConfiguration>
+                                            </served-Cell-Information>
+                                            <gNB-DU-System-Information>
+                                                <mIB-message>00 00 0C</mIB-message>
+                                                <sIB1-message>
+                                                    70 00 30 91 9B 24 00 01 00 00 01 00 00 00 00 1A
+                                                    40 00 04 05 02 42 00 41 00 18 00 00 00 20 00 13
+                                                    60 70 CB 35 D8 01 B8 20 10 00 78 88 40 10 41 A3
+                                                    01 0A 0A 13 30 08 00 00 00 20 00 13 D5 C0 70 CB
+                                                    36 A0 58 00 00 52 40 80 A6 7C C7 9F 80 00 24 E3
+                                                    11 0A 2A 11 84 A8 00 80 EC 04 16 00 07 C0 00 02
+                                                    17 80
+                                                </sIB1-message>
+                                            </gNB-DU-System-Information>
+                                        </GNB-DU-Served-Cells-Item>
+                                    </value>
+                                </ProtocolIE-SingleContainer>
+                            </GNB-DU-Served-Cells-List>
+                        </value>
+                    </F1SetupRequestIEs>
+                    <F1SetupRequestIEs>
+                        <id>171</id>
+                        <criticality><reject/></criticality>
+                        <value>
+                            <RRC-Version>
+                                <latest-RRC-Version>
+                                    000
+                                </latest-RRC-Version>
+                            </RRC-Version>
+                        </value>
+                    </F1SetupRequestIEs>
+                </protocolIEs>
+            </F1SetupRequest>
+        </value>
+    </initiatingMessage>
+</F1AP-PDU>
+[F1AP]   ----------------- ASN1 DECODER PRINT END -----------------
+[F1AP]   f1ap_decode_initiating_message(): F1AP_ProcedureCode_id_F1Setup
+[F1AP]   Calling handler with instance 0
+[F1AP]   CU_handle_F1_SETUP_REQUEST
+[F1AP]   req->gNB_DU_id 1
+[F1AP]   req->gNB_DU_name ORAN_OAM_DU
+[F1AP]   req->num_cells_available 1
+[F1AP]   req->tac[0] 0
+[F1AP]   [SCTP 82] Received nRCGI: MCC 466, MNC 920, CELL_ID 1
+[F1AP]   req->nr_pci[0] 1
+[F1AP]   Received Cell in 1 context
+[F1AP]   req->mib[0] len = 3
+[F1AP]   req->sib1[0] len = 98
+[NR_RRC]   Received message F1AP_SETUP_REQ
+[NR_RRC]   [gNB 0] Received F1AP_SETUP_REQ : 0x7f6fc0002f50
+[NR_RRC]   Received F1 Setup Request from gNB_DU 1 (ORAN_OAM_DU)
+[NR_RRC]   instance 0 mib length 3
+[NR_RRC]   instance 0 sib1 length 98
+0 0 c
+<MIB>
+    <systemFrameNumber>
+        000000
+    </systemFrameNumber>
+    <subCarrierSpacingCommon><scs15or60/></subCarrierSpacingCommon>
+    <ssb-SubcarrierOffset>0</ssb-SubcarrierOffset>
+    <dmrs-TypeA-Position><pos2/></dmrs-TypeA-Position>
+    <pdcch-ConfigSIB1>
+        <controlResourceSetZero>0</controlResourceSetZero>
+        <searchSpaceZero>0</searchSpaceZero>
+    </pdcch-ConfigSIB1>
+    <cellBarred><notBarred/></cellBarred>
+    <intraFreqReselection><notAllowed/></intraFreqReselection>
+    <spare>
+        0
+    </spare>
+</MIB>
+70      0       30      91      9b      24      0       1       0       0       1       0       0       0       0       1a      40  04       5       2       42      0       41      0       18      0       0       0       20      0       13      60      70      cb  35       d8      1       b8      20      10      0       78      88      40      10      41      a3      1       a       a       13  30       8       0       0       0       20      0       13      d5      c0      70      cb      36      a0      58      0       0   52       40      80      a6      7c      c7      9f      80      0       24      e3      11      a       2a      11      84      a8  080      ec      4       16      0       7       c0      0       2       17      80
+<SIB1>
+    <cellAccessRelatedInfo>
+        <plmn-IdentityList>
+            <PLMN-IdentityInfo>
+                <plmn-IdentityList>
+                    <PLMN-Identity>
+                        <mcc>
+                            <MCC-MNC-Digit>4</MCC-MNC-Digit>
+                            <MCC-MNC-Digit>6</MCC-MNC-Digit>
+                            <MCC-MNC-Digit>6</MCC-MNC-Digit>
+                        </mcc>
+                        <mnc>
+                            <MCC-MNC-Digit>9</MCC-MNC-Digit>
+                            <MCC-MNC-Digit>2</MCC-MNC-Digit>
+                            <MCC-MNC-Digit>0</MCC-MNC-Digit>
+                        </mnc>
+                    </PLMN-Identity>
+                </plmn-IdentityList>
+                <trackingAreaCode>
+                    000000010000000000000000
+                </trackingAreaCode>
+                <ranac>1</ranac>
+                <cellIdentity>
+                    000000000000000000000000000000000001
+                </cellIdentity>
+                <cellReservedForOperatorUse><notReserved/></cellReservedForOperatorUse>
+            </PLMN-IdentityInfo>
+        </plmn-IdentityList>
+    </cellAccessRelatedInfo>
+    <connEstFailureControl>
+        <connEstFailCount><n3/></connEstFailCount>
+        <connEstFailOffsetValidity><s120/></connEstFailOffsetValidity>
+    </connEstFailureControl>
+    <si-SchedulingInfo>
+        <schedulingInfoList>
+            <SchedulingInfo>
+                <si-BroadcastStatus><broadcasting/></si-BroadcastStatus>
+                <si-Periodicity><rf8/></si-Periodicity>
+                <sib-MappingInfo>
+                    <SIB-TypeInfo>
+                        <type><sibType2/></type>
+                        <valueTag>10</valueTag>
+                    </SIB-TypeInfo>
+                </sib-MappingInfo>
+            </SchedulingInfo>
+        </schedulingInfoList>
+        <si-WindowLength><s5/></si-WindowLength>
+    </si-SchedulingInfo>
+    <servingCellConfigCommon>
+        <downlinkConfigCommon>
+            <frequencyInfoDL>
+                <frequencyBandList>
+                    <NR-MultiBandInfo>
+                        <freqBandIndicatorNR>66</freqBandIndicatorNR>
+                    </NR-MultiBandInfo>
+                </frequencyBandList>
+                <offsetToPointA>24</offsetToPointA>
+                <scs-SpecificCarrierList>
+                    <SCS-SpecificCarrier>
+                        <offsetToCarrier>0</offsetToCarrier>
+                        <subcarrierSpacing><kHz30/></subcarrierSpacing>
+                        <carrierBandwidth>20</carrierBandwidth>
+                    </SCS-SpecificCarrier>
+                </scs-SpecificCarrierList>
+            </frequencyInfoDL>
+            <initialDownlinkBWP>
+                <genericParameters>
+                    <locationAndBandwidth>28875</locationAndBandwidth>
+                    <subcarrierSpacing><kHz30/></subcarrierSpacing>
+                </genericParameters>
+                <pdcch-ConfigCommon>
+                    <setup>
+                        <controlResourceSetZero>0</controlResourceSetZero>
+                        <searchSpaceZero>0</searchSpaceZero>
+                        <commonSearchSpaceList>
+                            <SearchSpace>
+                                <searchSpaceId>1</searchSpaceId>
+                                <controlResourceSetId>0</controlResourceSetId>
+                                <monitoringSlotPeriodicityAndOffset>
+                                    <sl1></sl1>
+                                </monitoringSlotPeriodicityAndOffset>
+                                <monitoringSymbolsWithinSlot>
+                                    10000000000000
+                                </monitoringSymbolsWithinSlot>
+                                <nrofCandidates>
+                                    <aggregationLevel1><n8/></aggregationLevel1>
+                                    <aggregationLevel2><n4/></aggregationLevel2>
+                                    <aggregationLevel4><n2/></aggregationLevel4>
+                                    <aggregationLevel8><n1/></aggregationLevel8>
+                                    <aggregationLevel16><n0/></aggregationLevel16>
+                                </nrofCandidates>
+                                <searchSpaceType>
+                                    <common>
+                                        <dci-Format0-0-AndFormat1-0>
+                                        </dci-Format0-0-AndFormat1-0>
+                                    </common>
+                                </searchSpaceType>
+                            </SearchSpace>
+                        </commonSearchSpaceList>
+                        <searchSpaceSIB1>2</searchSpaceSIB1>
+                        <pagingSearchSpace>2</pagingSearchSpace>
+                        <ra-SearchSpace>3</ra-SearchSpace>
+                    </setup>
+                </pdcch-ConfigCommon>
+                <pdsch-ConfigCommon>
+                    <release></release>
+                </pdsch-ConfigCommon>
+            </initialDownlinkBWP>
+            <bcch-Config>
+                <modificationPeriodCoeff><n2/></modificationPeriodCoeff>
+            </bcch-Config>
+            <pcch-Config>
+                <defaultPagingCycle><rf32/></defaultPagingCycle>
+                <nAndPagingFrameOffset>
+                    <oneT></oneT>
+                </nAndPagingFrameOffset>
+                <ns><four/></ns>
+            </pcch-Config>
+        </downlinkConfigCommon>
+        <uplinkConfigCommon>
+            <frequencyInfoUL>
+                <frequencyBandList>
+                    <NR-MultiBandInfo>
+                    </NR-MultiBandInfo>
+                </frequencyBandList>
+                <scs-SpecificCarrierList>
+                    <SCS-SpecificCarrier>
+                        <offsetToCarrier>5077</offsetToCarrier>
+                        <subcarrierSpacing><spare2/></subcarrierSpacing>
+                        <carrierBandwidth>28876</carrierBandwidth>
+                    </SCS-SpecificCarrier>
+                </scs-SpecificCarrierList>
+            </frequencyInfoUL>
+            <initialUplinkBWP>
+                <genericParameters>
+                    <locationAndBandwidth>41048</locationAndBandwidth>
+                    <subcarrierSpacing><kHz15/></subcarrierSpacing>
+                </genericParameters>
+                <pusch-ConfigCommon>
+                    <release></release>
+                </pusch-ConfigCommon>
+                <pucch-ConfigCommon>
+                    <release></release>
+                </pucch-ConfigCommon>
+            </initialUplinkBWP>
+            <timeAlignmentTimerCommon><ms500/></timeAlignmentTimerCommon>
+        </uplinkConfigCommon>
+        <ssb-PositionsInBurst>
+            <inOneGroup>
+                00000000
+            </inOneGroup>
+        </ssb-PositionsInBurst>
+        <ssb-PeriodicityServingCell><ms160/></ssb-PeriodicityServingCell>
+        <tdd-UL-DL-ConfigurationCommon>
+            <referenceSubcarrierSpacing><kHz240/></referenceSubcarrierSpacing>
+            <pattern1>
+                <dl-UL-TransmissionPeriodicity><ms0p5/></dl-UL-TransmissionPeriodicity>
+                <nrofDownlinkSlots>32934</nrofDownlinkSlots>
+                <nrofDownlinkSymbols>7</nrofDownlinkSymbols>
+                <nrofUplinkSlots>51103</nrofUplinkSlots>
+                <nrofUplinkSymbols>8</nrofUplinkSymbols>
+            </pattern1>
+        </tdd-UL-DL-ConfigurationCommon>
+        <ss-PBCH-BlockPower>-59</ss-PBCH-BlockPower>
+    </servingCellConfigCommon>
+</SIB1>
+[F1AP]   CU Task Received F1AP_SETUP_RESP
+[F1AP]   num_cells_to_activate = 1
+[F1AP]   ----------------- ASN1 ENCODER PRINT START -----------------
+<F1AP-PDU>
+    <successfulOutcome>
+        <procedureCode>1</procedureCode>
+        <criticality><reject/></criticality>
+        <value>
+            <F1SetupResponse>
+                <protocolIEs>
+                    <F1SetupResponseIEs>
+                        <id>78</id>
+                        <criticality><reject/></criticality>
+                        <value>
+                            <TransactionID>1</TransactionID>
+                        </value>
+                    </F1SetupResponseIEs>
+                    <F1SetupResponseIEs>
+                        <id>82</id>
+                        <criticality><ignore/></criticality>
+                        <value>
+                            <GNB-CU-Name>gNB-Eurecom-CU</GNB-CU-Name>
+                        </value>
+                    </F1SetupResponseIEs>
+                    <F1SetupResponseIEs>
+                        <id>3</id>
+                        <criticality><reject/></criticality>
+                        <value>
+                            <Cells-to-be-Activated-List>
+                                <ProtocolIE-SingleContainer>
+                                    <id>4</id>
+                                    <criticality><reject/></criticality>
+                                    <value>
+                                        <Cells-to-be-Activated-List-Item>
+                                            <nRCGI>
+                                                <pLMN-Identity>64 96 02</pLMN-Identity>
+                                                <nRCellIdentity>
+                                                    000000000000000000000000000000000001
+                                                </nRCellIdentity>
+                                            </nRCGI>
+                                            <nRPCI>1</nRPCI>
+                                        </Cells-to-be-Activated-List-Item>
+                                    </value>
+                                </ProtocolIE-SingleContainer>
+                            </Cells-to-be-Activated-List>
+                        </value>
+                    </F1SetupResponseIEs>
+                </protocolIEs>
+            </F1SetupResponse>
+        </value>
+    </successfulOutcome>
+</F1AP-PDU>
+[F1AP]   ----------------- ASN1 ENCODER PRINT END-----------------
+[F1AP]   Sending ITTI message to SCTP Task
+[SCTP]   Successfully sent 54 bytes on stream 0 for assoc_id 82
