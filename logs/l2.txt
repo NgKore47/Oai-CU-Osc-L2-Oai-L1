@@ -1,0 +1,899 @@
+root@six:/home/six/NCU_integration_OSC_DU-main/bin/odu# ./odu
+
+Creating thread here /home/gnb/OAIOSC/OSC_L2/src/mt/mt_ss.c 3701
+
+Set priority 99
+
+Creating thread here /home/gnb/OAIOSC/OSC_L2/src/mt/mt_ss.c 3596
+
+Set priority 99
+
+Creating thread here /home/gnb/OAIOSC/OSC_L2/src/mt/mt_ss.c 3596
+
+Set priority 99
+
+Creating thread here /home/gnb/OAIOSC/OSC_L2/src/mt/mt_ss.c 3596
+
+Set priority 98
+
+Creating thread here /home/gnb/OAIOSC/OSC_L2/src/mt/mt_ss.c 3596
+
+Set priority 99
+
+Creating thread here /home/gnb/OAIOSC/OSC_L2/src/mt/mt_ss.c 3596
+
+Set priority 99
+
+Creating thread here /home/gnb/OAIOSC/OSC_L2/src/mt/mt_ss.c 3596
+
+Set priority 99
+
+Creating thread here /home/gnb/OAIOSC/OSC_L2/src/mt/mt_ss.c 3596
+
+INFO   -->  DU_APP : DU APP created and registered    to 1 sys task
+
+DEBUG   -->  EGTP : Initializing
+INFO   -->  DU_APP : EGTP created and registered     to 2 sys task
+
+DEBUG  -->  SCTP : Initializing
+INFO   -->  DU_APP : SCTP TAPA task created and registered to 5 sys task
+INFO   -->  DU_APP : RLC DL and MAC TAPA task created and registered to    3 sys task
+INFO   -->  DU_APP : RLC UL TAPA task created and registered to    4 sys task
+INFO   -->  DU_APP : LWR MAC TAPA task created and registered to 6 sys task<MIB>
+    <systemFrameNumber>
+        000000
+    </systemFrameNumber>
+    <subCarrierSpacingCommon><scs15or60/></subCarrierSpacingCommon>
+    <ssb-SubcarrierOffset>0</ssb-SubcarrierOffset>
+    <dmrs-TypeA-Position><pos2/></dmrs-TypeA-Position>
+    <pdcch-ConfigSIB1>
+        <controlResourceSetZero>0</controlResourceSetZero>
+        <searchSpaceZero>0</searchSpaceZero>
+    </pdcch-ConfigSIB1>
+    <cellBarred><notBarred/></cellBarred>
+    <intraFreqReselection><notAllowed/></intraFreqReselection>
+    <spare>
+        0
+    </spare>
+</MIB>
+
+encbufSize:3
+0       0       c
+<SIB1>
+    <cellAccessRelatedInfo>
+        <plmn-IdentityList>
+            <PLMN-IdentityInfo>
+                <plmn-IdentityList>
+                    <PLMN-IdentitY>
+                        <mcc>
+                            <MCC-MNC-Digit>4</MCC-MNC-Digit>
+                            <MCC-MNC-Digit>6</MCC-MNC-Digit>
+                            <MCC-MNC-Digit>6</MCC-MNC-Digit>
+                        </mcc>
+                        <mnc>
+                            <MCC-MNC-Digit>9</MCC-MNC-Digit>
+                            <MCC-MNC-Digit>2</MCC-MNC-Digit>
+                            <MCC-MNC-Digit>0</MCC-MNC-Digit>
+                        </mnc>
+                    </PLMN-IdentitY>
+                </plmn-IdentityList>
+                <trackingAreaCode>
+                    000000010000000000000000
+                </trackingAreaCode>
+                <ranac>1</ranac>
+                <cellIdentity>
+                    000000000000000000000000000000000001
+                </cellIdentity>
+                <cellReservedForOperatorUse><notReserved/></cellReservedForOperatorUse>
+            </PLMN-IdentityInfo>
+        </plmn-IdentityList>
+    </cellAccessRelatedInfo>
+    <connEstFailureControl>
+        <connEstFailCount><n3/></connEstFailCount>
+        <connEstFailOffsetValidity><s120/></connEstFailOffsetValidity>
+    </connEstFailureControl>
+    <si-SchedulingInfo>
+        <schedulingInfoList>
+            <SchedulingInfo>
+                <si-BroadcastStatus><broadcasting/></si-BroadcastStatus>
+                <si-Periodicity><rf8/></si-Periodicity>
+                <sib-MappingInfo>
+                    <SIB-TypeInfo>
+                        <type><sibType2/></type>
+                        <valueTag>10</valueTag>
+                    </SIB-TypeInfo>
+                </sib-MappingInfo>
+            </SchedulingInfo>
+        </schedulingInfoList>
+        <si-WindowLength><s5/></si-WindowLength>
+    </si-SchedulingInfo>
+    <servingCellConfigCommon>
+        <downlinkConfigCommon>
+            <frequencyInfoDL>
+                <frequencyBandList>
+                    <NR-MultiBandInfo>
+                        <freqBandIndicatorNR>66</freqBandIndicatorNR>
+                    </NR-MultiBandInfo>
+                </frequencyBandList>
+                <offsetToPointA>24</offsetToPointA>
+                <scs-SpecificCarrierList>
+                    <SCS-SpecificCarrier>
+                        <offsetToCarrier>0</offsetToCarrier>
+                        <subcarrierSpacing><kHz30/></subcarrierSpacing>
+                        <carrierBandwidth>20</carrierBandwidth>
+                    </SCS-SpecificCarrier>
+                </scs-SpecificCarrierList>
+            </frequencyInfoDL>
+            <initialDownlinkBWP>
+                <genericParameters>
+                    <locationAndBandwidth>28875</locationAndBandwidth>
+                    <subcarrierSpacing><kHz30/></subcarrierSpacing>
+                </genericParameters>
+                <pdcch-ConfigCommon>
+                    <setup>
+                        <controlResourceSetZero>0</controlResourceSetZero>
+                        <searchSpaceZero>0</searchSpaceZero>
+                        <commonSearchSpaceList>
+                            <SearchSpace>
+                                <searchSpaceId>1</searchSpaceId>
+                                <controlResourceSetId>0</controlResourceSetId>
+                                <monitoringSlotPeriodicityAndOffset>
+                                    <sl1></sl1>
+                                </monitoringSlotPeriodicityAndOffset>
+                                <monitoringSymbolsWithinSlot>
+                                    10000000000000
+                                </monitoringSymbolsWithinSlot>
+                                <nrofCandidates>
+                                    <aggregationLevel1><n8/></aggregationLevel1>
+                                    <aggregationLevel2><n4/></aggregationLevel2>
+                                    <aggregationLevel4><n2/></aggregationLevel4>
+                                    <aggregationLevel8><n1/></aggregationLevel8>
+                                    <aggregationLevel16><n0/></aggregationLevel16>
+                                </nrofCandidates>
+                                <searchSpaceType>
+                                    <common>
+                                        <dci-Format0-0-AndFormat1-0>
+                                        </dci-Format0-0-AndFormat1-0>
+                                    </common>
+                                </searchSpaceType>
+                            </SearchSpace>
+                        </commonSearchSpaceList>
+                        <searchSpaceSIB1>1</searchSpaceSIB1>
+                        <pagingSearchSpace>1</pagingSearchSpace>
+                        <ra-SearchSpace>1</ra-SearchSpace>
+                    </setup>
+                </pdcch-ConfigCommon>
+                <pdsch-ConfigCommon>
+                    <setup>
+                        <pdsch-TimeDomainAllocationList>
+                            <PDSCH-TimeDomainResourceAllocation>
+                                <k0>0</k0>
+                                <mappingType><typeA/></mappingType>
+                                <startSymbolAndLength>66</startSymbolAndLength>
+                            </PDSCH-TimeDomainResourceAllocation>
+                            <PDSCH-TimeDomainResourceAllocation>
+                                <k0>1</k0>
+                                <mappingType><typeA/></mappingType>
+                                <startSymbolAndLength>66</startSymbolAndLength>
+                            </PDSCH-TimeDomainResourceAllocation>
+                        </pdsch-TimeDomainAllocationList>
+                    </setup>
+                </pdsch-ConfigCommon>
+            </initialDownlinkBWP>
+            <bcch-Config>
+                <modificationPeriodCoeff><n16/></modificationPeriodCoeff>
+            </bcch-Config>
+            <pcch-Config>
+                <defaultPagingCycle><rf256/></defaultPagingCycle>
+                <nAndPagingFrameOffset>
+                    <oneT></oneT>
+                </nAndPagingFrameOffset>
+                <ns><four/></ns>
+            </pcch-Config>
+        </downlinkConfigCommon>
+        <uplinkConfigCommon>
+            <frequencyInfoUL>
+                <scs-SpecificCarrierList>
+                    <SCS-SpecificCarrier>
+                        <offsetToCarrier>0</offsetToCarrier>
+                        <subcarrierSpacing><kHz30/></subcarrierSpacing>
+                        <carrierBandwidth>20</carrierBandwidth>
+                    </SCS-SpecificCarrier>
+                </scs-SpecificCarrierList>
+                <p-Max>23</p-Max>
+            </frequencyInfoUL>
+            <initialUplinkBWP>
+                <genericParameters>
+                    <locationAndBandwidth>28875</locationAndBandwidth>
+                    <subcarrierSpacing><kHz30/></subcarrierSpacing>
+                </genericParameters>
+                <rach-ConfigCommon>
+                    <setup>
+                        <rach-ConfigGeneric>
+                            <prach-ConfigurationIndex>88</prach-ConfigurationIndex>
+                            <msg1-FDM><one/></msg1-FDM>
+                            <msg1-FrequencyStart>82</msg1-FrequencyStart>
+                            <zeroCorrelationZoneConfig>4</zeroCorrelationZoneConfig>
+                            <preambleReceivedTargetPower>-74</preambleReceivedTargetPower>
+                            <preambleTransMax><n200/></preambleTransMax>
+                            <powerRampingStep><dB2/></powerRampingStep>
+                            <ra-ResponseWindow><sl10/></ra-ResponseWindow>
+                        </rach-ConfigGeneric>
+                        <totalNumberOfRA-Preambles>63</totalNumberOfRA-Preambles>
+                        <ssb-perRACH-OccasionAndCB-PreamblesPerSSB>
+                            <one><n8/></one>
+                        </ssb-perRACH-OccasionAndCB-PreamblesPerSSB>
+                        <ra-ContentionResolutionTimer><sf64/></ra-ContentionResolutionTimer>
+                        <rsrp-ThresholdSSB>31</rsrp-ThresholdSSB>
+                        <prach-RootSequenceIndex>
+                            <l139>0</l139>
+                        </prach-RootSequenceIndex>
+                        <msg1-SubcarrierSpacing><kHz30/></msg1-SubcarrierSpacing>
+                        <restrictedSetConfig><unrestrictedSet/></restrictedSetConfig>
+                    </setup>
+                </rach-ConfigCommon>
+                <pusch-ConfigCommon>
+                    <setup>
+                        <pusch-TimeDomainAllocationList>
+                            <PUSCH-TimeDomainResourceAllocation>
+                                <k2>4</k2>
+                                <mappingType><typeA/></mappingType>
+                                <startSymbolAndLength>66</startSymbolAndLength>
+                            </PUSCH-TimeDomainResourceAllocation>
+                            <PUSCH-TimeDomainResourceAllocation>
+                                <k2>5</k2>
+                                <mappingType><typeA/></mappingType>
+                                <startSymbolAndLength>66</startSymbolAndLength>
+                            </PUSCH-TimeDomainResourceAllocation>
+                        </pusch-TimeDomainAllocationList>
+                        <msg3-DeltaPreamble>0</msg3-DeltaPreamble>
+                        <p0-NominalWithGrant>-70</p0-NominalWithGrant>
+                    </setup>
+                </pusch-ConfigCommon>
+                <pucch-ConfigCommon>
+                    <setup>
+                        <pucch-ResourceCommon>0</pucch-ResourceCommon>
+                        <pucch-GroupHopping><neither/></pucch-GroupHopping>
+                        <p0-nominal>-74</p0-nominal>
+                    </setup>
+                </pucch-ConfigCommon>
+            </initialUplinkBWP>
+            <timeAlignmentTimerCommon><infinity/></timeAlignmentTimerCommon>
+        </uplinkConfigCommon>
+        <ssb-PositionsInBurst>
+            <inOneGroup>
+                11000000
+            </inOneGroup>
+        </ssb-PositionsInBurst>
+        <ssb-PeriodicityServingCell><ms20/></ssb-PeriodicityServingCell>
+        <tdd-UL-DL-ConfigurationCommon>
+            <referenceSubcarrierSpacing><kHz30/></referenceSubcarrierSpacing>
+            <pattern1>
+                <dl-UL-TransmissionPeriodicity><ms5/></dl-UL-TransmissionPeriodicity>
+                <nrofDownlinkSlots>7</nrofDownlinkSlots>
+                <nrofDownlinkSymbols>12</nrofDownlinkSymbols>
+                <nrofUplinkSlots>2</nrofUplinkSlots>
+                <nrofUplinkSymbols>1</nrofUplinkSymbols>
+            </pattern1>
+        </tdd-UL-DL-ConfigurationCommon>
+        <ss-PBCH-BlockPower>0</ss-PBCH-BlockPower>
+    </servingCellConfigCommon>
+</SIB1>
+
+encbufSize: 98
+70      0       30      ffffff91        ffffff9b        24      0       1       0       0       1       0       0       0       0       1a      40      0       4       5242      0       41      0       18      0       0       0       20      0       13      60      70      ffffffcb        35      ffffffd8        1       ffffffb8        2010      0       78      ffffff88        40      10      41      ffffffa3        1       a       a       13      30      8       0       0       0       20      0       13ffffffd5        ffffffc0        70      ffffffcb        36      ffffffa0        58      0       0       52      40      ffffff80        ffffffa6        7c      ffffffc7 ffffff9f ffffff80        0       24      ffffffe3        11      a       2a      11      ffffff84        ffffffa8        0       ffffff80        ffffffec        4       160       7       ffffffc0        0       2       17      ffffff80
+<BCCH-BCH-Message>
+    <message>
+        <mib>
+            <systemFrameNumber>
+                000000
+            </systemFrameNumber>
+            <subCarrierSpacingCommon><scs15or60/></subCarrierSpacingCommon>
+            <ssb-SubcarrierOffset>0</ssb-SubcarrierOffset>
+            <dmrs-TypeA-Position><pos2/></dmrs-TypeA-Position>
+            <pdcch-ConfigSIB1>
+                <controlResourceSetZero>0</controlResourceSetZero>
+                <searchSpaceZero>0</searchSpaceZero>
+            </pdcch-ConfigSIB1>
+            <cellBarred><notBarred/></cellBarred>
+            <intraFreqReselection><notAllowed/></intraFreqReselection>
+            <spare>
+                0
+            </spare>
+        </mib>
+    </message>
+</BCCH-BCH-Message>
+
+encbufSize:3
+0       0       6
+
+INFO    --> DU_APP: readVnfCfg() Conpleted
+******************FINISH VNF_CFG_REQ **************************
+****** Received initial configs at DU APP ******
+
+DEBUG   -->  DU_APP : RLC Gen Cfg Req sent for inst 0
+DEBUG   -->  DU_APP : RLC MAC Lower Sap Cfg Req sent for inst 0
+DEBUG   -->  DU_APP : RLC DL/UL Lower Sap Cfg Req sent for inst 0
+DEBUG  --> RLC : RlcMiRlcConfigReq elmId(1)
+****** Received initial vnf configs at DU APP ******
+
+DEBUG  -->  DU_APP : MAC VNF config sent
+INFO   --> RLC_DL : Starting SNSSAI Throughput timer
+INFO  -->  LWR_MAC : Calling MacProcVnfCfgReq
+DEBUG  --> RLC : RlcMiRlcConfigReq elmId(186)
+DEBUG   -->  DU_APP : RLC UL Cfg Status 0
+DEBUG  --> RLC : RlcMiRlcConfigReq elmId(189)
+DEBUG   -->  DU_APP : RLC UL Cfg Cfm received for the element 1
+DEBUG   -->  DU_APP : RLC UL Cfg Status 0
+DEBUG   -->  DU_APP : RLC UL Cfg Cfm received for the element 186
+DEBUG   -->  DU_APP : RLC UL Cfg Status 0
+DEBUG   -->  DU_APP : RLC UL Cfg Cfm received for the element 189
+INFO  -->  LWR_MAC : phystate :  0 in msgType : 6
+DEBUG   -->  DU_APP : RLC Gen Cfg Req sent for inst 1
+INFO  --> LWR_MAC [NFAPI_TRACE_INFO] : lwr_mac_procVnfCfgStartEvt
+DEBUG   -->  DU_APP : RLC Kwu Upper Sap Cfg Req sent for inst 1
+DEBUG   -->  DU_APP : RLC MAC Lower Sap Cfg Req sent for inst 1
+DEBUG  --> RLC : RlcMiRlcConfigReq elmId(1)
+INFO   --> RLC_DL : Starting UE Throughput timer
+INFO   --> RLC_DL : Starting SNSSAI Throughput timer
+DEBUG  --> RLC : RlcMiRlcConfigReq elmId(189)
+DEBUG   -->  DU_APP : RLC DL Cfg Status 0
+DEBUG  --> RLC : RlcMiRlcConfigReq elmId(186)
+DEBUG   -->  DU_APP : RLC DL Cfg Cfm received for the element 1
+[NFAPI VNF INTF]  ->  nfapi_nr_vnf_start()
+[NFAPI VNF INTF]  ->  Starting P5 VNF connection on port 62324
+DEBUG   -->  DU_APP : RLC DL Cfg Status 0
+[NFAPI VNF INTF]  ->  P5 socket created...
+DEBUG   -->  DU_APP : RLC DL Cfg Cfm received for the element 189
+[NFAPI VNF INTF]  ->  VNF Setting the SCTP_INITMSG
+[NFAPI VNF INTF]  ->  IPV4 binding to port 62324
+DEBUG   -->  DU_APP : RLC DL Cfg Status 0
+DEBUG   -->  DU_APP : RLC DL Cfg Cfm received for the element 186
+[NFAPI VNF INTF]  ->  bind succeeded...
+DEBUG   -->  DU_APP : MAC Gen Cfg Req sent
+DEBUG  -->  DU_APP : MAC Rgu USap Cfg Req sent
+DEBUG  -->  DU_APP : MAC Rgu USap Cfg Req sent
+[NFAPI VNF INTF]  ->  listen succeeded...
+INFO  -->  MAC : Received CfgReq for MAC layer, Entity = 235, Instance = 0
+INFO  -->  MAC : Received CfgReq for MAC layer, Entity = 235, Instance = 0
+DEBUG   -->  DU_APP : MAC Cfg Cfm received for the element 1
+INFO  -->  MAC : Received CfgReq for MAC layer, Entity = 235, Instance = 0
+DEBUG   -->  DU_APP : MAC Cfg Cfm received for the element 186
+DEBUG   -->  DU_APP : MAC Cfg Cfm received for the element 186
+DEBUG   -->  DU_APP : Completed sending Configs
+DEBUG   -->  DU_APP : Cntrl Req to RLC inst 1 to bind MAC sap
+DEBUG  --> RLC : RlcMiLkwCntrlReq(elmId(186))
+DEBUG  -->  MAC : SAP Not yet bound
+DEBUG  -->  RLC UL : RlcLiRguBndCfm(suId(0), status(1)
+DEBUG   -->  DU_APP : BIND OF RLC DL TO MAC (RGU) SAP SUCCESSFUL
+DEBUG   -->  DU_APP : Cntrl Req to RLC inst 0 to bind MAC sap
+DEBUG  -->  RLC UL : RlcLiRguBndCfm: For RGU SAP state=3
+DEBUG  --> RLC : RlcMiLkwCntrlReq(elmId(186))
+DEBUG   -->  DU_APP : BIND OF RLC UL TO MAC (RGU) SAP SUCCESSFUL
+DEBUG   -->  DU_APP : MAC Sch Cfg sent
+Received Scheduler gen config at MAC
+INFO   -->  SCH : Received scheduler gen config
+DEBUG  -->  SCH : Entered SchInstCfg()
+INFO   -->  SCH : Scheduler gen config done
+DEBUG  -->  Sending Scheduler config confirm to DU APP
+DEBUG   -->  DU_APP : Received SCH CFG CFM at DU APP
+INFO   -->  DU_APP : Configuring all Layer is complete
+CmInetSctpConnectx() Failed test: error(115), port(0x78cb),                sockFd->fd(5)
+
+INFO   -->  SCTP : Polling started at DU
+
+CmInetSctpConnectx() Failed test: error(115), port(0x8e45),                sockFd->fd(6)
+
+DEBUG   -->  DU_APP : Sending EGTP config request
+DEBUG   -->  SCTP : AssocId assigned to F1Params from PollParams [81]
+
+DEBUG   -->  EGTP : EGTP configuration successful
+DEBUG   -->  SCTP : Assoc change notification received
+INFO   -->  Event : COMMUNICATION UP in du
+DEBUG   -->  SCTP : Forwarding received message to duApp
+DEBUG   -->  SCTP : AssocId assigned to ricParams from PollParams [83]
+
+INFO   -->  F1AP : Building F1 Setup Request
+
+DEBUG   -->  SCTP : Assoc change notification received
+INFO   -->  Event : CANT START ASSOC in du
+DEBUG   -->  SCTP : Forwarding received message to duApp<F1AP-PDU>
+    <initiatingMessage>
+        <procedureCode>1</procedureCode>
+        <criticality><reject/></criticality>
+        <value>
+            <F1SetupRequest>
+                <protocolIEs>
+                    <F1SetupRequestIEs>
+                        <id>78</id>
+                        <criticality><reject/></criticality>
+                        <value>
+                            <TransactionID>1</TransactionID>
+                        </value>
+                    </F1SetupRequestIEs>
+                    <F1SetupRequestIEs>
+                        <id>42</id>
+                        <criticality><reject/></criticality>
+                        <value>
+                            <GNB-DU-ID>1</GNB-DU-ID>
+                        </value>
+                    </F1SetupRequestIEs>
+                    <F1SetupRequestIEs>
+                        <id>45</id>
+                        <criticality><ignore/></criticality>
+                        <value>
+                            <GNB-DU-Name>ORAN_OAM_DU</GNB-DU-Name>
+                        </value>
+                    </F1SetupRequestIEs>
+                    <F1SetupRequestIEs>
+                        <id>44</id>
+                        <criticality><reject/></criticality>
+                        <value>
+                            <GNB-DU-Served-Cells-List>
+                                <ProtocolIE-SingleContainer>
+                                    <id>43</id>
+                                    <criticality><reject/></criticality>
+                                    <value>
+                                        <GNB-DU-Served-Cells-Item>
+                                            <served-Cell-Information>
+                                                <nRCGI>
+                                                    <pLMN-Identity>64 96 02</pLMN-Identity>
+                                                    <nRCellIdentity>
+                                                        000000000000000000000000000000000001
+                                                    </nRCellIdentity>
+                                                </nRCGI>
+                                                <nRPCI>1</nRPCI>
+                                                <fiveGS-TAC>00 00 01</fiveGS-TAC>
+                                                <servedPLMNs>
+                                                    <ServedPLMNs-Item>
+                                                        <pLMN-Identity>64 96 02</pLMN-Identity>
+                                                        <iE-Extensions>
+                                                            <ServedPLMNs-ItemExtIEs>
+                                                                <id>131</id>
+                                                                <criticality><ignore/></criticality>
+                                                                <extensionValue>
+                                                                    <SliceSupportList>
+                                                                        <SliceSupportItem>
+                                                                            <sNSSAI>
+                                                                                <sST>01</sST>
+                                                                                <sD>02 03 04</sD>
+                                                                            </sNSSAI>
+                                                                        </SliceSupportItem>
+                                                                        <SliceSupportItem>
+                                                                            <sNSSAI>
+                                                                                <sST>05</sST>
+                                                                                <sD>06 07 08</sD>
+                                                                            </sNSSAI>
+                                                                        </SliceSupportItem>
+                                                                    </SliceSupportList>
+                                                                </extensionValue>
+                                                            </ServedPLMNs-ItemExtIEs>
+                                                        </iE-Extensions>
+                                                    </ServedPLMNs-Item>
+                                                </servedPLMNs>
+                                                <nR-Mode-Info>
+                                                    <fDD>
+                                                        <uL-NRFreqInfo>
+                                                            <nRARFCN>350000</nRARFCN>
+                                                            <freqBandListNr>
+                                                                <FreqBandNrItem>
+                                                                    <freqBandIndicatorNr>66</freqBandIndicatorNr>
+                                                                    <supportedSULBandList>
+                                                                    </supportedSULBandList>
+                                                                </FreqBandNrItem>
+                                                            </freqBandListNr>
+                                                        </uL-NRFreqInfo>
+                                                        <dL-NRFreqInfo>
+                                                            <nRARFCN>430000</nRARFCN>
+                                                            <freqBandListNr>
+                                                                <FreqBandNrItem>
+                                                                    <freqBandIndicatorNr>66</freqBandIndicatorNr>
+                                                                    <supportedSULBandList>
+                                                                    </supportedSULBandList>
+                                                                </FreqBandNrItem>
+                                                            </freqBandListNr>
+                                                        </dL-NRFreqInfo>
+                                                        <uL-Transmission-Bandwidth>
+                                                            <nRSCS><scs60/></nRSCS>
+                                                            <nRNRB><nrb106/></nRNRB>
+                                                        </uL-Transmission-Bandwidth>
+                                                        <dL-Transmission-Bandwidth>
+                                                            <nRSCS><scs60/></nRSCS>
+                                                            <nRNRB><nrb106/></nRNRB>
+                                                        </dL-Transmission-Bandwidth>
+                                                    </fDD>
+                                                </nR-Mode-Info>
+                                                <measurementTimingConfiguration>00</measurementTimingConfiguration>
+                                            </served-Cell-Information>
+                                            <gNB-DU-System-Information>
+                                                <mIB-message>00 00 0C</mIB-message>
+                                                <sIB1-message>
+                                                    70 00 30 91 9B 24 00 01 00 00 01 00 00 00 00 1A
+                                                    40 00 04 05 02 42 00 41 00 18 00 00 00 20 00 13
+                                                    60 70 CB 35 D8 01 B8 20 10 00 78 88 40 10 41 A3
+                                                    01 0A 0A 13 30 08 00 00 00 20 00 13 D5 C0 70 CB
+                                                    36 A0 58 00 00 52 40 80 A6 7C C7 9F 80 00 24 E3
+                                                    11 0A 2A 11 84 A8 00 80 EC 04 16 00 07 C0 00 02
+                                                    17 80
+                                                </sIB1-message>
+                                            </gNB-DU-System-Information>
+                                        </GNB-DU-Served-Cells-Item>
+                                    </value>
+                                </ProtocolIE-SingleContainer>
+                            </GNB-DU-Served-Cells-List>
+                        </value>
+                    </F1SetupRequestIEs>
+                    <F1SetupRequestIEs>
+                        <id>171</id>
+                        <criticality><reject/></criticality>
+                        <value>
+                            <RRC-Version>
+                                <latest-RRC-Version>
+                                    000
+                                </latest-RRC-Version>
+                            </RRC-Version>
+                        </value>
+                    </F1SetupRequestIEs>
+                </protocolIEs>
+            </F1SetupRequest>
+        </value>
+    </initiatingMessage>
+</F1AP-PDU>
+
+DEBUG   -->  F1AP : Created APER encoded buffer for F1SetupRequest
+010ffffff80ffffffd400504e020102a020102d40d504f52414e5f4f414d5f445502c0ffffff80ffffffaa0002b0ffffff80ffffffa348064ffffff96200001001001864ffffff962000ffffff8340c01402023440ffffffa0678105573000410406ffffff8fffffffb000410478ffffffe0100300c6270030ffffff91ffffff9b240100100001a40045242041018000200136070ffffffcb35ffffffd81ffffffb82010078ffffff88401041ffffffa31aa1330800020013ffffffd5ffffffc070ffffffcb36ffffffa058005240ffffff80ffffffa67cffffffc7ffffff9fffffff80024ffffffe311a2a11ffffff84ffffffa80ffffff80ffffffec41607ffffffc00217ffffff800ffffffab010
+msg: qlen: 0001 mlen: 0217   00-->00 region: 00
+dat: 00 01 00 80 d4 00 00 05 00 4e 00 02 00 01 00 2a .........N.....*
+     00 02 00 01 00 2d 40 0d 05 00 4f 52 41 4e 5f 4f .....-@...ORAN_O
+     41 4d 5f 44 55 00 2c 00 80 aa 00 00 00 2b 00 80 AM_DU.,......+..
+     a3 48 00 64 96 02 00 00 00 00 10 00 01 00 00 01 .H.d............
+     08 64 96 02 00 00 00 83 40 0c 00 01 40 20 02 03 .d......@...@ ..
+     04 40 a0 06 07 08 01 00 05 57 30 00 00 41 00 40 .@.......W0..A.@
+     06 8f b0 00 00 41 00 47 08 e0 01 00 00 03 00 00 .....A.G........
+     0c 62 70 00 30 91 9b 24 00 01 00 00 01 00 00 00 .bp.0..$........
+     00 1a 40 00 04 05 02 42 00 41 00 18 00 00 00 20 ..@....B.A.....
+     00 13 60 70 cb 35 d8 01 b8 20 10 00 78 88 40 10 ..`p.5... ..x.@.
+     41 a3 01 0a 0a 13 30 08 00 00 00 20 00 13 d5 c0 A.....0.... ....
+     70 cb 36 a0 58 00 00 52 40 80 a6 7c c7 9f 80 00 p.6.X..R@..|....
+     24 e3 11 0a 2a 11 84 a8 00 80 ec 04 16 00 07 c0 $...*...........
+     00 02 17 80 00 ab 00 01 00                      .........
+
+DEBUG   -->  SCTP : sending the message to CU
+DEBUG   -->  DU_APP : EGTP configuraton complete
+DEBUG   -->  DU_APP : Sending EGTP server open request
+INFO   -->  E2AP : Building E2 Setup Request
+
+DEBUG  -->  EGTP : Received EGTP open server request<E2AP-PDU>
+    <initiatingMessage>
+        <procedureCode>1</procedureCode>
+        <criticality>
+DEBUG   -->  EGTP : Receiver socket[7] and Sender socket[8] open<reject/></criticality>
+        <
+DEBUG   -->  EGTP : Starting Socket Pollingvalue>
+            <E2setupRequest>
+                <protocolIEs>
+                    <E2setupRequestIEs>
+                        <id>3</id>
+                        <criticality><reject/></criticality>
+                        <value>
+                            <GlobalE2node-ID>
+                                <gNB>
+                                    <global-gNB-ID>
+                                        <plmn-id>64 96 02</plmn-id>
+                                        <gnb-id>
+                                            <gnb-ID>
+                                                00000000000000000000000000000001
+                                            </gnb-ID>
+                                        </gnb-id>
+                                    </global-gNB-ID>
+                                </gNB>
+                            </GlobalE2node-ID>
+                        </value>
+                    </E2setupRequestIEs>
+                </protocolIEs>
+            </E2setupRequest>
+        </value>
+    </initiatingMessage>
+</E2AP-PDU>
+
+DEBUG   -->  E2AP : Created APER encoded buffer for E2SetupRequest
+010100010309064ffffff962500001
+msg: qlen: 0001 mlen: 0020   00-->00 region: 00
+dat: 00 01 00 10 00 00 01 00 03 00 09 00 64 96 02 50 ............d..P
+     00 00 00 01                                     ....
+
+DEBUG   -->  SCTP : sending the message to ric
+DEBUG   -->  DU_APP : EGTP server opened successfully
+DEBUG   -->  SCTP : Forwarding received message to duApp
+msg: qlen: 0001 mlen: 0054   00-->00 region: 00
+dat: 40 01 00 32 00 00 03 00 4e 00 02 00 01 00 52 40 @..2....N.....R@
+     10 06 80 67 4e 42 2d 45 75 72 65 63 6f 6d 2d 43 ...gNB-Eurecom-C
+     55 00 03 00 11 00 00 00 04 00 0b 40 64 96 02 00 U..........@d...
+     00 00 00 10 00 01                               ......
+
+INFO  -->  F1AP : Received F1AP message buffer
+msg: qlen: 0001 mlen: 0054   00-->00 region: 00
+dat: 40 01 00 32 00 00 03 00 4e 00 02 00 01 00 52 40 @..2....N.....R@
+     10 06 80 67 4e 42 2d 45 75 72 65 63 6f 6d 2d 43 ...gNB-Eurecom-C
+     55 00 03 00 11 00 00 00 04 00 0b 40 64 96 02 00 U..........@d...
+     00 00 00 10 00 01                               ......
+
+DEBUG   -->  F1AP : Received flat buffer to be decoded : 40103200304e020105240106ffffff80674e422d45757265636f6d2d43550301100040b4064ffffff96200001001
+<F1AP-PDU>
+    <successfulOutcome>
+        <procedureCode>1</procedureCode>
+        <criticality><reject/></criticality>
+        <value>
+            <F1SetupResponse>
+                <protocolIEs>
+                    <F1SetupResponseIEs>
+                        <id>78</id>
+                        <criticality><reject/></criticality>
+                        <value>
+                            <TransactionID>1</TransactionID>
+                        </value>
+                    </F1SetupResponseIEs>
+                    <F1SetupResponseIEs>
+                        <id>82</id>
+                        <criticality><ignore/></criticality>
+                        <value>
+                            <GNB-CU-Name>gNB-Eurecom-CU</GNB-CU-Name>
+                        </value>
+                    </F1SetupResponseIEs>
+                    <F1SetupResponseIEs>
+                        <id>3</id>
+                        <criticality><reject/></criticality>
+                        <value>
+                            <Cells-to-be-Activated-List>
+                                <ProtocolIE-SingleContainer>
+                                    <id>4</id>
+                                    <criticality><reject/></criticality>
+                                    <value>
+                                        <Cells-to-be-Activated-List-Item>
+                                            <nRCGI>
+                                                <pLMN-Identity>64 96 02</pLMN-Identity>
+                                                <nRCellIdentity>
+                                                    000000000000000000000000000000000001
+                                                </nRCellIdentity>
+                                            </nRCGI>
+                                            <nRPCI>1</nRPCI>
+                                        </Cells-to-be-Activated-List-Item>
+                                    </value>
+                                </ProtocolIE-SingleContainer>
+                            </Cells-to-be-Activated-List>
+                        </value>
+                    </F1SetupResponseIEs>
+                </protocolIEs>
+            </F1SetupResponse>
+        </value>
+    </successfulOutcome>
+</F1AP-PDU>
+
+INFO   -->  F1AP : F1 Setup Response received
+INFO   -->  DU_APP : F1 Setup Response received
+INFO   -->  DU_APP : F1 Setup Response received
+DEBUG  -->  DU-APP : MAC CELL config sent
+INFO   -->  DU_APP : F1 Setup Response received
+INFO  -->  SCH : Cell init completed for cellId:1
+INFO  -->  LWR_MAC [Lwr Mac Sch Info] : MacProcSchCellCfgCfm
+[MWNL] The VNF_ENABLE is set to YES and waiting for pthread signal ...
+
+[NFAPI VNF INTF]  ->  Accepting connection from PNF...
+[NFAPI VNF INTF]  ->  PNF connection (fd:9) accepted from 127.0.0.1:46516
+[NFAPI VNF INTF]  ->  MALLOC nfapi_vnf_pnf_info_t for pnf_list pnf:0x7f5eb8000b60
+[NFAPI VNF]  ->  pnf connection indication idx:0
+[NFAPI VNF INTF]  ->  VNF Association ID = 85
+[NFAPI VNF INTF]  ->  VNF Receiver window size = 106488
+[NFAPI VNF INTF]  ->  VNF In Streams = 5
+[NFAPI VNF INTF]  ->  VNF Out Streams = 5
+[NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
+[NFAPI VNF]  ->  Received message fd:9 from 127.0.0.1:46516 assoc:85 on stream 0, PPID 704643072, length 74, flags 0x80
+[NFAPI VNF]  ->  Received PNF_PARAM.reponse
+[NFAPI VNF]  ->  pnf param response idx:0 error:0
+[NFAPI VNF]  ->  (PHY:0) phy_config_idx:0
+[NFAPI VNF]  ->  Adding phy p5_idx:0 phy_id:1
+[NFAPI VNF]  ->  (PHY:0) (RF0) 0
+[NFAPI VNF]  ->  (PHY:0) (RF1) 0
+NFAPI   ->      DJP:Hard coded num phy rf to 2
+[NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
+[NFAPI VNF]  ->  Received message fd:9 from 127.0.0.1:46516 assoc:85 on stream 0, PPID 704643072, length 12, flags 0x80
+[NFAPI VNF]  ->  Received PNF_CONFIG_RESPONSE
+[NFAPI VNF]  ->  pnf config response idx:0 resp[header[phy_id:0 message_id:103 message_length:12]]
+[NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
+[NFAPI VNF]  ->  Received message fd:9 from 127.0.0.1:46516 assoc:85 on stream 0, PPID 704643072, length 12, flags 0x80
+[NFAPI VNF]  ->  Received PNF_START_RESPONSE
+[NFAPI VNF]  ->  pnf start response idx:0 config:0x55d3ce4ca400 user_data:0x55d3ce4c9110 p7_vnf[config:0x55d3ce4c9890 thread_started:0]
+[NFAPI VNF]  ->  P7 thread is running
+Calling sched_setscheduler(79)
+[NFAPI VNF]  ->  Sending NFAPI_VNF_PARAM_REQUEST phy_id:1
+[NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
+[NFAPI VNF]  ->  Received message fd:9 from 127.0.0.1:46516 assoc:85 on stream 0, PPID 704643072, length 354, flags 0x80
+[NFAPI VNF]  ->  Received PARAM_RESPONSE
+[NFAPI VNF]  ->  PNF P7 IPv4 address: 127.0.0.2
+[NFAPI VNF]  ->  PNF P7 IPv6 address: ::
+[NFAPI VNF]  ->  PNF P7 Port: 32123
+[NFAPI VNF]  ->  The PNF has been running, set FALG to 0
+[NFAPI VNF]  ->  The PNF has been running, set FALG to 1
+INFO  -->  LWR_MAC : phystate :  0 in msgType : 2
+INFO  -->  LWR_MAC: Process Config Request Event
+DEBUG  -->  LWR_MAC: MIB PDU 600
+[NFAPI VNF]  ->  Received NFAPI_PARAM_RESP idx:0 phy_id:1
+[NFAPI VNF]  ->  p5_idx : 0 phy_idx : 1 pnf p7 127.0.0.2:32123 timing 30 10 0 10
+[NFAPI VNF]  ->  Send NFAPI_CONFIG_REQUEST
+[NFAPI VNF]  ->  DJP local_port:50611
+[NFAPI VNF]  ->  DJP local_addr:127.0.0.1
+NFAPI   ->      [VNF]Timing window tag : 286 Timing window:30
+[NFAPI P5]  ->  Number of TLVs in ORAN_OAI 25
+[NFAPI P5]  ->  TAG 0x1001 with value 20 and length 2
+[NFAPI P5]  ->  TAG 0x1002 with value 2169080 and length 4
+[NFAPI P5]  ->  TAG 0x1004 with value 106 and length 2
+[NFAPI P5]  ->  TAG 0x1005 with value 1 and length 2
+[NFAPI P5]  ->  TAG 0x1006 with value 20 and length 2
+[NFAPI P5]  ->  TAG 0x1007 with value 1769080 and length 4
+[NFAPI P5]  ->  TAG 0x1009 with value 106 and length 2
+[NFAPI P5]  ->  TAG 0x100a with value 1 and length 2
+[NFAPI P5]  ->  TAG 0x100c with value 1 and length 2
+[NFAPI P5]  ->  TAG 0x100d with value 0 and length 1
+[NFAPI P5]  ->  TAG 0x100e with value 0 and length 4
+[NFAPI P5]  ->  TAG 0x1010 with value 1 and length 1
+[NFAPI P5]  ->  TAG 0x1012 with value 30 and length 1
+[NFAPI P5]  ->  TAG 0x1013 with value 0 and length 1
+[NFAPI P5]  ->  TAG 0x1014 with value 1 and length 1
+[NFAPI P5]  ->  TAG 0x1029 with value 88 and length 1
+[NFAPI P5]  ->  TAG 0x1015 with value 0 and length 2
+[NFAPI P5]  ->  TAG 0x1017 with value 0 and length 2
+[NFAPI P5]  ->  TAG 0x1018 with value 4 and length 1
+[NFAPI P5]  ->  TAG 0x101b with value 1 and length 1
+[NFAPI P5]  ->  TAG 0x101d with value 24 and length 2
+[NFAPI P5]  ->  TAG 0x101f with value 2 and length 1
+[NFAPI P5]  ->  TAG 0x1020 with value 0 and length 1
+[NFAPI P5]  ->  TAG 0x1021 with value 1536 and length 4
+[NFAPI P5]  ->  TAG 0x1022 with value 1 and length 4
+[NFAPI VNF]  ->  Sent NFAPI_VNF_CONFIG_REQ
+[NFAPI VNF]  ->  vnf_nr_p7_start_thread()
+[NFAPI P7] ->  Initialising VNF P7 port:50611
+[NFAPI P7] ->  VNF P7 socket created...
+[NFAPI P7] ->  VNF P7 setsockopt succeeded...
+[NFAPI P7] ->  VNF P7 binding too 0.0.0.0:50611
+[NFAPI P7] ->  VNF P7 bind succeeded...
+
+[NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
+[NFAPI VNF]  ->  Received message fd:9 from 127.0.0.1:46516 assoc:85 on stream 0, PPID 704643072, length 9, flags 0x80
+[NFAPI VNF]  ->  Received CONFIG_RESPONSE
+INFO  -->  LWR_MAC : phystate :  0 in msgType : 3
+INFO  -->  LWR_MAC: Received EVENT[3] at STATE[0]
+DEBUG  -->  LWR_MAC: PHY has moved to Configured state
+
+[NFAPI VNF]  ->  Received NFAPI_CONFIG_RESP idx:0 phy_id:1
+[NFAPI VNF]  ->  Calling oai_enb_init()
+[NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
+[NFAPI VNF]  ->  Received message fd:9 from 127.0.0.1:46516 assoc:85 on stream 0, PPID 704643072, length 12, flags 0x80
+[NFAPI VNF]  ->  NR Received START_RESPONSE
+[NFAPI VNF]  ->  Received NFAPI_START_RESP idx:0 phy_id:1nfapi_vnf_p7_add_pnf(config:0x55d3ce4c9890 phy_id:1 pnf_addr:127.0.0.2 pnf_p7_port:32123)
+
+[NFAPI VNF INTF]  ->  Accepting connection from PNF...
+[NFAPI VNF INTF]  ->  PNF connection (fd:11) accepted from 127.0.0.1:49442
+[NFAPI VNF INTF]  ->  MALLOC nfapi_vnf_pnf_info_t for pnf_list pnf:0x7f5eb80011a0
+[NFAPI VNF]  ->  pnf connection indication idx:1
+[NFAPI VNF INTF]  ->  VNF Association ID = 87
+[NFAPI VNF INTF]  ->  VNF Receiver window size = 106488
+[NFAPI VNF INTF]  ->  VNF In Streams = 5
+[NFAPI VNF INTF]  ->  VNF Out Streams = 5
+[NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
+[NFAPI VNF]  ->  Received message fd:11 from 127.0.0.1:49442 assoc:87 on stream 0, PPID 704643072, length 74, flags 0x80
+[NFAPI VNF]  ->  Received PNF_PARAM.reponse
+[NFAPI VNF]  ->  pnf param response idx:1 error:0
+[NFAPI VNF]  ->  (PHY:0) phy_config_idx:0
+[NFAPI VNF]  ->  Adding phy p5_idx:1 phy_id:2
+[NFAPI VNF]  ->  (PHY:0) (RF0) 0
+[NFAPI VNF]  ->  (PHY:0) (RF1) 0
+NFAPI   ->      DJP:Hard coded num phy rf to 2
+[NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
+[NFAPI VNF]  ->  Received message fd:11 from 127.0.0.1:49442 assoc:87 on stream 0, PPID 704643072, length 12, flags 0x80
+[NFAPI VNF]  ->  Received PNF_CONFIG_RESPONSE
+[NFAPI VNF]  ->  pnf config response idx:1 resp[header[phy_id:0 message_id:103 message_length:12]]
+[NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
+[NFAPI VNF]  ->  Received message fd:11 from 127.0.0.1:49442 assoc:87 on stream 0, PPID 704643072, length 12, flags 0x80
+[NFAPI VNF]  ->  Received PNF_START_RESPONSE
+[NFAPI VNF]  ->  pnf start response idx:1 config:0x55d3ce4ca400 user_data:0x55d3ce4c9110 p7_vnf[config:0x55d3ce4c9890 thread_started:1]
+[NFAPI VNF]  ->  P7 thread has been running
+[NFAPI VNF]  ->  Sending NFAPI_VNF_PARAM_REQUEST phy_id:2
+[NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
+[NFAPI VNF]  ->  Received message fd:11 from 127.0.0.1:49442 assoc:87 on stream 0, PPID 704643072, length 354, flags 0x80
+[NFAPI VNF]  ->  Received PARAM_RESPONSE
+[NFAPI VNF]  ->  PNF P7 IPv4 address: 127.0.0.2
+[NFAPI VNF]  ->  PNF P7 IPv6 address: ::
+[NFAPI VNF]  ->  PNF P7 Port: 32123[MWNL] vnf_handle_nr_slot_indication
+VNF SFN/Slot 0.6
+[MWNL]  ->  The slot_ind sfn : 0, slot : 6
+[NFAPI_TRACE_DEBUG]  UL_INFO.frame = 0 and slot 6, prev_slot = 0, setup_time = 7
+[MWNL] ORAN_OAI_procSlotInd
+
+INFO  -->  LWR_MAC: PHY has moved to running stateMWNL  -->  MAC : Slot Indication received. [0 : 0]
+
+DEBUG  -->  LWR_MAC : No PDU in RACH.indication at [0, 0]
+DEBUG  -->  LWR_MAC: Processing UCI Indication
+DEBUG  -->  LWR_MAC : No PDU in RX_Data.indication at [0, 0]
+DEBUG  --> LWR_MAC : No CRC PDUs in CRC.indication at [0, 0]
+[MWNL] sendSlotIndMacToSch
+[MWNL] macProcSlotInd
+[MWNL] ORAN_OAI_fillDlTtiReq
+[MWNL]  ->  The current Timing Info : sfn : 0, slot : 2
+[MWNL]  ->  The DL TTI Timing Info : sfn : 0, slot : 3
+[MWNL] ORAN_OAI_fillUlTtiReq
+[MWNL] ORAN_OAI_fillUlDciReq
+[MWNL] ORAN_OAI_sendTxDataReq
+[MWNL] nfapi_vnf_p7_nr_dl_config_req
+P7 is about to send msg
+P7 msg sent with result 27
+
+INFO   -->  DU APP : 5G-NR Cell 1 is UP
+DEBUG  -->  DU_APP : Sending Slice Cfg Request to MAC
+INFO  -->  MAC : Received Slice Cfg request from DU APP
+INFO  -->  SCH : Received Slice Cfg request from MAC
+INFO  -->  DU_APP : Slice Configuration is done sucessfully [MWNL] vnf_handle_nr_slot_indication
+VNF SFN/Slot 0.7
+[MWNL]  ->  The slot_ind sfn : 0, slot : 7
+[NFAPI_TRACE_DEBUG]  UL_INFO.frame = 0 and slot 7, prev_slot = 6, setup_time = 7
+[MWNL] ORAN_OAI_procSlotInd
+MWNL  -->  MAC : Slot Indication received. [0 : 0]
+
+DEBUG  -->  LWR_MAC : No PDU in RACH.indication at [0, 0]
+DEBUG  -->  LWR_MAC: Processing UCI Indication
+DEBUG  -->  LWR_MAC : No PDU in RX_Data.indication at [0, 0]
+DEBUG  --> LWR_MAC : No CRC PDUs in CRC.indication at [0, 0]
+[MWNL] sendSlotIndMacToSch
+[MWNL] macProcSlotInd
+[MWNL] ORAN_OAI_fillDlTtiReq
+[MWNL]  ->  The current Timing Info : sfn : 0, slot : 2
+[MWNL]  ->  The DL TTI Timing Info : sfn : 0, slot : 3
+[MWNL] ORAN_OAI_fillUlTtiReq
+[MWNL] ORAN_OAI_fillUlDciReq
+[MWNL] ORAN_OAI_sendTxDataReq
+[MWNL] nfapi_vnf_p7_nr_dl_config_req
+P7 is about to send msg
+P7 msg sent with result 27
+[MWNL] vnf_handle_nr_slot_indication
+VNF SFN/Slot 0.8
+[MWNL]  ->  The slot_ind sfn : 0, slot : 8
+[NFAPI_TRACE_DEBUG]  UL_INFO.frame = 0 and slot 8, prev_slot = 7, setup_time = 7
+[MWNL] ORAN_OAI_procSlotInd
+MWNL  -->  MAC : Slot Indication received. [0 : 0]
+
+DEBUG  -->  LWR_MAC : No PDU in RACH.indication at [0, 0]
+DEBUG  -->  LWR_MAC: Processing UCI Indication
+DEBUG  -->  LWR_MAC : No PDU in RX_Data.indication at [0, 0]
+DEBUG  --> LWR_MAC : No CRC PDUs in CRC.indication at [0, 0]
+[MWNL] sendSlotIndMacToSch
+[MWNL] macProcSlotInd
+[MWNL] ORAN_OAI_fillDlTtiReq
+[MWNL]  ->  The current Timing Info : sfn : 0, slot : 2
+[MWNL]  ->  The DL TTI Timing Info : sfn : 0, slot : 3
+[MWNL] ORAN_OAI_fillUlTtiReq
+[MWNL] ORAN_OAI_fillUlDciReq
+[MWNL] ORAN_OAI_sendTxDataReq
+[MWNL] nfapi_vnf_p7_nr_dl_config_req
+P7 is about to send msg
+P7 msg sent with result 27
+[MWNL] vnf_handle_nr_slot_indication
+VNF SFN/Slot 0.9
+[MWNL]  ->  The slot_ind sfn : 0, slot : 9
+[NFAPI_TRACE_DEBUG]  UL_INFO.frame = 0 and slot 9, prev_slot = 8, setup_time = 7
+[MWNL] ORAN_OAI_procSlotInd
+MWNL  -->  MAC : Slot Indication received. [0 : 0]
+
+DEBUG  -->  LWR_MAC : No PDU in RACH.indication at [0, 0]
+DEBUG  -->  LWR_MAC: Processing UCI Indication
+DEBUG  -->  LWR_MAC : No PDU in RX_Data.indication at [0, 0]
+DEBUG  --> LWR_MAC : No CRC PDUs in CRC.indication at [0, 0]
+[MWNL] sendSlotIndMacToSch
+[MWNL] macProcSlotInd
+[MWNL] ORAN_OAI_fillDlTtiReq
+[MWNL]  ->  The current Timing Info : sfn : 0, slot : 2
+[MWNL]  ->  The DL TTI Timing Info : sfn : 0, slot : 3
+[MWNL] ORAN_OAI_fillUlTtiReq
+[MWNL] ORAN_OAI_fillUlDciReq
+[MWNL] ORAN_OAI_sendTxDataReq
+[MWNL] nfapi_vnf_p7_nr_dl_config_req
+P7 is about to send msg
+P7 msg sent with result 27
