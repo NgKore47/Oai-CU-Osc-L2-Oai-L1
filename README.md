@@ -10,7 +10,7 @@
 - Memory: 256GB
 
 ## File Downloads and refernces 
-| Drive | `Ngkore > Oai > Oai-CU-Osc-L2-Oai-L1`|
+| Drive | `Ngkore > hackmd > Oai-CU-Osc-L2-Oai-L1`|
 |-|-|
 
 
